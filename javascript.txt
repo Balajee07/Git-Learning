@@ -1,0 +1,101 @@
+var employee ={
+empName = 'Rajesh',
+phNumber = 9883728313,
+sayHi() {
+console.log('Hello everyone");
+},
+}
+SyntaxError: '' string literal contains an unescaped line break debugger eval code:5:30
+var employee ={
+empName = 'Rajesh',
+phNumber = 9883728313,
+sayHi() {
+console.log('Hello everyone');
+}
+}
+var d =20;
+SyntaxError: missing : after property id[Learn More] debugger eval code:2:8
+var employee ={
+empName : 'Rajesh',
+phNumber : 9883728313,
+sayHi() {
+console.log('Hello everyone');
+}
+}
+var d =20;
+undefined
+employee.sayHi();
+Hello everyone debugger eval code:5:1
+undefined
+employee.fn = function() {
+console.log(empName);
+};
+function fn()
+employee.fn();
+ReferenceError: empName is not defined[Learn More] debugger eval code:2:1
+employee.fn = function() {
+console.log(employee.empName);
+};
+function fn()
+employee.fn();
+Rajesh debugger eval code:2:1
+undefined
+employee.fn = function() {
+console.log(this.empName);
+};
+function fn()
+employee.fn();
+Rajesh debugger eval code:2:1
+undefined
+let value = 20;
+undefined
+funtion  show() {
+SyntaxError: unexpected token: identifier[Learn More] debugger eval code:1:9
+funtion  show() {
+console.log(this.value);
+SyntaxError: unexpected token: identifier[Learn More] debugger eval code:1:9
+funtion  show() {
+console.log(this.value);
+SyntaxError: unexpected token: identifier[Learn More] debugger eval code:1:9
+funtion  show() {
+console.log(this.value);
+}
+SyntaxError: unexpected token: identifier[Learn More] debugger eval code:1:9
+function  show() {
+console.log(this.value);
+}
+undefined
+show();
+undefined debugger eval code:2:1
+undefined
+function  show() {
+console.log(this.value);
+};
+undefined
+show();
+undefined debugger eval code:2:1
+undefined
+employee.sayBy = function() {
+console.log("bubyee");
+};
+function sayBy()
+employee.sayBy = function() {
+console.log("bubyee + this.empName");
+};
+function sayBy()
+employee.sayBy();
+bubyee + this.empName debugger eval code:2:1
+undefined
+employee.sayBy = function() {
+console.log("bubyee" + this.empName);
+};
+function sayBy()
+employee.sayBy();
+bubyeeRajesh debugger eval code:2:1
+undefined
+(employee.empName == 'Rajesh'? employee.sayBy : employee.sayHi)();
+bubyeeundefined debugger eval code:2:1
+undefined
+(employee.empName == 'Rajesh'? employee.sayBy() : employee.sayHi());
+bubyeeRajesh debugger eval code:2:1
+undefined 
