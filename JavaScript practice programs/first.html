@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="width:device-width, initial-scale:1">
+	<title>Traversy Media</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="header">
+	<h2 id="header" >Traversy Media</h2>
+	<p>in Youtube</p>
+</div>
+<div class="pagebody">
+	<button onmouseout="clearDate()" onmouseover = "doFunction()">touch me</button>
+	<h1 id = "dateId"></h1>
+</div>
+
+	
+<script type="text/javascript">
+	function doFunction() {
+		var hd = document.getElementById("dateId");
+		hd.innerHTML = Date();
+	}
+	
+	function clearDate() {
+		var id = document.innerHTML = '';
+	}
+</script>
+
+</body>
+</html>

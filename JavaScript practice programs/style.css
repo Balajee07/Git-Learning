@@ -1,0 +1,22 @@
+body{
+	text-align: center;
+	font-family: arial;
+	font-size: 18px;
+}
+
+li{
+	list-style: none;
+	list-height: 2em;
+	list-align: left;
+}
+
+.header{
+	background: #f4f4f4;
+	border-bottom:#ccc 3px solid;
+	padding: 20px;
+}
+
+.pagebody{
+	text-align : center;
+	margin: 100px;
+}
