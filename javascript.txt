@@ -1,5 +1,5 @@
 var employee ={
-empName = 'Rajesh',
+empName = 'Vinoth',
 phNumber = 9883728313,
 sayHi() {
 console.log('Hello everyone");
